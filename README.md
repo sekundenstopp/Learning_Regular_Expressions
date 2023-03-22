@@ -43,9 +43,9 @@
 ### Negative Metacharacters
 - ^ : negative 캐릭터 셋
 - negative이란
- . 여러개의 글자중 아무것도 아니어야함
- . character set맨앞에 ^를 추가하면됨 --> 그럼 전체 character set을 negative set으로 바꿈
- . /[^aeiou]/ #모음빼고 다 찾음(숫자,띄어쓰기,특수문자등도 다 찾음)
+  -- 여러개의 글자중 아무것도 아니어야함
+  -- character set맨앞에 ^를 추가하면됨 --> 그럼 전체 character set을 negative set으로 바꿈
+  -- /[^aeiou]/ #모음빼고 다 찾음(숫자,띄어쓰기,특수문자등도 다 찾음)
  
  - 주의
-  . /see[^mn]/ # "see"는 못찾음. see뒤에 뭔가 하나 더 있어야함 "see." 이나 "see "는 찾음**
+  -- /see[^mn]/ # "see"는 못찾음. see뒤에 뭔가 하나 더 있어야함 "see." 이나 "see "는 찾음**
