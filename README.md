@@ -10,7 +10,6 @@
 ---
 ## TIP: A good regular expression should match the text you want to target and only that text, nothing more.
 
----
 
 # .(dot) 
 . # new line을 제외한 모든 글자를 나타냄
