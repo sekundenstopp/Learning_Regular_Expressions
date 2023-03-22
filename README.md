@@ -10,13 +10,13 @@
 [https://regexpal.com](https://regexpal.com/)
 
 # .(dot) 
-- . : new line을 제외한 모든 글자를 나타냄
+- . 은 new line을 제외한 모든 글자를 나타냄
 - /h.t/ : hat, hot, hit (heat은 안됨)
 - \ : 다음글자를 escape시킴 (escape란 다음 글자를 metacharcters가 아닌 literal 글자로 인식하게함)
 - /\./ : .을 literal로 인식하게함
 
 # character set metacharacters
-- \[ 와 \] 안에 들어있는 set
+- \[ \] 안에 들어있는 set
 - 여러개의 글자중에 한 오직 한개의 글자
 - 글자set에 있는 글자들의 순서는 중요하지 않음
 - /[aeiou]/ 는 모음중 한개의 글자를 나타냄
