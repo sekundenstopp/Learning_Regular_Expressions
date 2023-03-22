@@ -32,7 +32,7 @@
 /[ABCDEFGHIJKLMNOPQRSTUVWXYZ]/
 
 
-### - : -(하이픈)으로 range를 나타낼 수 있음 
+### -(하이픈)으로 range를 나타낼 수 있음 
 - 하이픈이 [] 안에 있을때만 range로 나타내고 []가 없으면 그냥 literal character로 - 임
 - [0-9]
 - [A-Za-z]
