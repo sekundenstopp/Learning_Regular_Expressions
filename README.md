@@ -1,6 +1,6 @@
 # Learning_Regular_Expressions
 
-### website for practice
+## website for practice
 [https://regexr.com](https://regexr.com/)
 
 [https://regex101.com](https://regex101.com/)
@@ -11,16 +11,20 @@
 ## TIP: A good regular expression should match the text you want to target and only that text, nothing more.
 
 ---
-# . 
+
+# .(dot) 
 . # new line을 제외한 모든 글자를 나타냄
+
 /h.t/ = hat, hot, hit (heat은 안됨)
+
 \   # 다음글자를 escape시킴 (escape란 다음 글자를 metacharcters가 아닌 literal 글자로 인식하게함)
+
 /\./ # .을 literal로 인식하게함
 
-
 # character set metacharcters
-[ # character set의 시작
-] # character set의 끝
+\[ # character set의 시작
+
+\] # character set의 끝
 
  - 여러개의 글자중에 한 오직 한개의 글자
  - 글자set에 있는 글자들의 순서는 중요하지 않음
