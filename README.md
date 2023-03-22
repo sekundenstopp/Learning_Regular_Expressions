@@ -40,7 +40,7 @@
 - 주의
   - [50-99] : 50~99까지의 숫자를 나타내지 않음!!!(한글자만 찾기때문이다!!)
 
-### Negative Metacharacters
+# Negative Metacharacters
 - ^ : negative 캐릭터 셋
 - negative이란
   -- 여러개의 글자중 아무것도 아니어야함
