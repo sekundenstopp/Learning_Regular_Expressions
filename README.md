@@ -16,8 +16,7 @@
 - /\./ : .을 literal로 인식하게함
 
 # character set metacharacters
-- \[ : character set의 시작  
-- \] : character set의 끝
+- \[ 와 \] 안에 들어있는 set
 - 여러개의 글자중에 한 오직 한개의 글자
 - 글자set에 있는 글자들의 순서는 중요하지 않음
 - /[aeiou]/ 는 모음중 한개의 글자를 나타냄
