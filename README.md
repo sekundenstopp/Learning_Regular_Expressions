@@ -1,4 +1,4 @@
-# Learning_Regular_Expressions
+# Learning Regular Expressions
 
 ## TIP: A good regular expression should match the text you want to target and only that text, nothing more.
 
