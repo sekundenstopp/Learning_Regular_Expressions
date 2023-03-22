@@ -10,13 +10,10 @@
 [https://regexpal.com](https://regexpal.com/)
 
 # .(dot) 
-. # new line을 제외한 모든 글자를 나타냄
-
-/h.t/ = hat, hot, hit (heat은 안됨)
-
-\   # 다음글자를 escape시킴 (escape란 다음 글자를 metacharcters가 아닌 literal 글자로 인식하게함)
-
-/\./ # .을 literal로 인식하게함
+- . : new line을 제외한 모든 글자를 나타냄
+- /h.t/ : hat, hot, hit (heat은 안됨)
+- \ : 다음글자를 escape시킴 (escape란 다음 글자를 metacharcters가 아닌 literal 글자로 인식하게함)
+- /\./ : .을 literal로 인식하게함
 
 # character set metacharcters
 \[ # character set의 시작
